@@ -99,9 +99,9 @@ const CardPage = () => {
     },
     {
       id: 16,
-      image: '/Asset/fbd.png',
-      title: 'Ointment',
-      content: 'A fully integrated, GMP-compliant system for producing creams, ointments, and gels. ',
+      image: '/Asset/FBP1.png',
+      title: 'Powder Transfer System (PTS)',
+      content: 'Closed Containment Solution for Safe & Efficient Powder Handling',
     },
     {
       id: 17,

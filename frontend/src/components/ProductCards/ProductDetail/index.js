@@ -355,7 +355,7 @@ const products = {
     title: 'Powder Transfer System (PTS)',
     subtitle: 'Closed Containment Solution for Safe & Efficient Powder Handling',
     description: `The Sameto Powder Transfer System is an advanced material handling solution engineered for dust-free transfer of powders and granules between equipment such as reactors, blenders, granulators, and tablet presses. Designed for maximum hygiene, safety, and operational efficiency, it is ideal for pharmaceutical, chemical, food, and cosmetic industries.`,
-    image: '/Asset/fbd.png',
+    image: '/Asset/FBP1.png',
     features: [
       'GMP-compliant stainless steel (SS 316/304) construction',
       'Pneumatic or vacuum-based transfer technology',
@@ -472,11 +472,12 @@ const ProductDetail = () => {
             </div>
           </div>
         </div>
-        <div className="mt-5">
+        <div className="mt-5 mb-5">
           <div className="p-4 bg-light border-start border-5 border-primary rounded-3 shadow-sm">
             <p className="mb-0">{product.footerNote}</p>
           </div>
         </div>
+       
         <div id="contact">
            <ContactSection />
         </div>

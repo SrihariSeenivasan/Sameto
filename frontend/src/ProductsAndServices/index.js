@@ -21,7 +21,7 @@ const productData = [
   { id: 13, name: "Ointment", image: "./Product images/OINTMENT-LIQUID-ORAL-PLANT.png" },
   { id: 14, name: "RMG", image: "./Asset/RMG1.png" },
   { id: 15, name: "Sameto Coater", image: "./Asset/SametoCoater.png" },
-  { id: 16, name: "Powder Transfer System (PTS)", image: "/Asset/fbd.png" },
+  { id: 16, name: "Powder Transfer System (PTS)", image: "/Asset/FBP1.png" },
   { id: 17, name: "Hydraulic Lifter", image: "/Asset/RMG1.png" },
   
   
