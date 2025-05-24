@@ -1,0 +1,23 @@
+.card.custom-card {
+  background-color: #0169FD;
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  border-radius: 10px;
+}
+
+.card.custom-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(1, 105, 253, 0.3);
+}
+
+.card.custom-card .card-title,
+.card.custom-card .card-text {
+  color: white;
+}
+
+.card.custom-card hr {
+  border-top: 2px solid white;
+  width: 80%;
+  margin: 0.5rem auto;
+}

@@ -1,0 +1,54 @@
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.gradient-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom, #0169FD, #000080);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.enquire-button {
+  background: linear-gradient(90deg, #F40102, #B6292A);
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  font-size: 1rem;
+  border-radius: 50px;
+  position: relative;
+  overflow: hidden;
+  transition: background 0.3s ease;
+  z-index: 1;
+}
+
+.enquire-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  transform: skewX(-45deg);
+  transition: all 0.5s ease;
+  z-index: 0;
+}
+
+.enquire-button:hover::before {
+  left: 100%;
+}
+
+.enquire-button:hover {
+  cursor: pointer;
+}
+
+.pharma-image {
+  border-radius: 25px;
+}

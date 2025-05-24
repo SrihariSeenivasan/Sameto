@@ -1,0 +1,25 @@
+.carousel-container {
+  overflow-x: scroll;
+  white-space: nowrap;      /* IMPORTANT: keeps images in a single row */
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* Firefox */
+  width: 100%;  /* container should fill parent width */
+}
+
+.carousel-container::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+
+.carousel-item {
+  display: inline-block;   /* Keep items in row */
+  width: 300px;            /* Fixed width per image */
+  user-select: none;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  display: block;          /* Remove extra space below images */
+}

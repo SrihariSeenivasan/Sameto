@@ -1,0 +1,138 @@
+/* Main Navbar Styling */
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  max-width: 90%;
+  background-color: whitesmoke;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  border-radius: 50px;
+  padding: 0.5rem 1rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Prevent content from hiding under navbar */
+body {
+  padding-top: 10px;
+}
+
+/* Flex container */
+.navbar-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+/* Logo aligned left */
+.navbar-brand {
+  flex-shrink: 0;
+}
+
+.navbar-brand img.logo {
+  height: 50px;
+  border-radius: 8px;
+}
+
+/* Nav Links aligned right */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin: 0;
+}
+
+/* Link styles */
+.nav-links li {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* Vertical divider between nav items */
+.nav-links li:not(:last-child)::after {
+  content: '';
+  height: 20px;
+  width: 1px;
+  background-color: #ccc;
+  margin-left: 2rem;
+}
+
+/* Text link styling */
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  padding-bottom: 4px;
+}
+
+/* Active link underline */
+.nav-links li a.active {
+  border-bottom: 2px solid red;
+}
+
+/* Hover gradient */
+.nav-links li a:hover {
+  background: linear-gradient(90deg, blue, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Hamburger styles */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 4px 0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    background: white;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    text-align: center;
+    border-radius: 12px;
+    padding: 1rem 0;
+    display: none;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-links li {
+    margin: 0.5rem 0;
+  }
+
+  /* Remove vertical divider on mobile */
+  .nav-links li:not(:last-child)::after {
+    display: none;
+  }
+}

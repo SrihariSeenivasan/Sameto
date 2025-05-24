@@ -1,0 +1,35 @@
+
+.connect-btn {
+  background: linear-gradient(90deg, #007bff, #001f9e);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  padding: 12px 20px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.connect-btn:hover {
+  background: linear-gradient(90deg, #001f9e, #007bff);
+}
+.contact-section {
+  background-color: red;
+}
+.react-tel-input .flag-dropdown {
+  background-color: white;
+  color: black;
+}
+
+.react-tel-input .selected-flag {
+  background-color: white !important;
+  color: black !important;
+}
+
+.react-tel-input .country-list {
+  background-color: white;
+  color: black;
+}
+
+.react-tel-input .country-list .country {
+  color: black;
+}
