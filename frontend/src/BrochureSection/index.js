@@ -1,7 +1,7 @@
 import React from 'react';
 import ContactSection from '../components/Contact';
 import Footer from '../components/Footer';
-import { Nav } from 'react-bootstrap';
+
 import Navbar from '../components/Navbar';
 const brochures = [
   { title: 'Blender', pdf: '/Sameto_Catalogues/Blender.pdf', image: '/Sameto_Catalogues/BLENDER.png' },
@@ -15,7 +15,7 @@ const BrochureSection = () => {
   return (
     
     <>
-    <Navbar fixed="top" className="navbar navbar-expand-lg navbar-light bg-light"></Navbar>
+    <Navbar sticky="top" className="navbar navbar-expand-lg navbar-light bg-light"></Navbar>
     <div className="container py-5">
       <div className="text-center mb-5">
         <img

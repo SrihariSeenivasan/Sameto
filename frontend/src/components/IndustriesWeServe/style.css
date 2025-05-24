@@ -9,10 +9,9 @@
   border: 1px solid #dee2e6;
 }
 
-/* Circle Number with Gradient Stroke */
 .gradient-border {
-  background: #0000FF; /* Blue background inside */
-  color: white; /* White number */
+  background: #0000FF; 
+  color: white; 
   font-weight: bold;
   font-size: 20px;
   width: 60px;
@@ -33,7 +32,7 @@
   right: -3px;
   bottom: -3px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #ffffff, #e0e0e0); /* White gradient stroke */
+  background: linear-gradient(135deg, #ffffff, #e0e0e0); 
   z-index: -1;
 }
 

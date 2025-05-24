@@ -18,14 +18,14 @@ const images = [
 export default function AutoDragSlider() {
   const containerRef = useRef(null);
 
-  // Duplicate images for infinite scroll effect
+
   const extendedImages = [...images, ...images];
 
   useEffect(() => {
     const container = containerRef.current;
     let scrollPos = 0;
-    const scrollStep = 1; // px per frame
-    const frameInterval = 16; // ~60fps
+    const scrollStep = 1; 
+    const frameInterval = 16; 
 
     let animationFrameId;
 
@@ -57,7 +57,7 @@ export default function AutoDragSlider() {
       isDragging = true;
       startX = e.pageX - container.offsetLeft;
       scrollLeft = container.scrollLeft;
-      container.style.scrollBehavior = "auto"; // disable smooth during drag
+      container.style.scrollBehavior = "auto"; 
     };
 
     const onMouseLeave = () => {
@@ -74,11 +74,11 @@ export default function AutoDragSlider() {
       if (!isDragging) return;
       e.preventDefault();
       const x = e.pageX - container.offsetLeft;
-      const walk = (x - startX) * 2; // scroll-fast multiplier
+      const walk = (x - startX) * 2;
       container.scrollLeft = scrollLeft - walk;
     };
 
-    // Touch events for mobile
+    
     let isTouchDragging = false;
     let touchStartX;
     let touchScrollLeft;
@@ -102,7 +102,7 @@ export default function AutoDragSlider() {
       container.style.scrollBehavior = "smooth";
     };
 
-    // Attach event listeners
+  
     container.addEventListener("mousedown", onMouseDown);
     container.addEventListener("mouseleave", onMouseLeave);
     container.addEventListener("mouseup", onMouseUp);

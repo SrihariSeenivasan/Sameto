@@ -4,7 +4,7 @@
   padding: 1.5rem;
   border-radius: 0.75rem;
   position: relative;
-  overflow: visible; /* Ensure content is not clipped */
+  overflow: visible;
   min-height: 180px;
   width: 50%;
   transition: border 0.4s ease;
@@ -38,7 +38,7 @@ ul li {
   margin-bottom: 0.5rem;
 }
 ul {
-  list-style-type: circle; /* default bullet point */
+  list-style-type: circle; 
 }
 .vertical-line {
   width: 4px;

@@ -1,4 +1,4 @@
-/* Main Navbar Styling */
+
 .navbar {
   position: sticky;
   top: 0;
@@ -16,12 +16,12 @@
   justify-content: space-between;
 }
 
-/* Prevent content from hiding under navbar */
+
 body {
   padding-top: 10px;
 }
 
-/* Flex container */
+
 .navbar-container {
   max-width: 1000px;
   margin: 0 auto;
@@ -32,7 +32,7 @@ body {
   padding: 0 1rem;
 }
 
-/* Logo aligned left */
+
 .navbar-brand {
   flex-shrink: 0;
 }
@@ -42,7 +42,7 @@ body {
   border-radius: 8px;
 }
 
-/* Nav Links aligned right */
+
 .nav-links {
   list-style: none;
   display: flex;
@@ -51,14 +51,14 @@ body {
   margin: 0;
 }
 
-/* Link styles */
+
 .nav-links li {
   position: relative;
   display: flex;
   align-items: center;
 }
 
-/* Vertical divider between nav items */
+
 .nav-links li:not(:last-child)::after {
   content: '';
   height: 20px;
@@ -67,7 +67,7 @@ body {
   margin-left: 2rem;
 }
 
-/* Text link styling */
+
 .nav-links li a {
   text-decoration: none;
   color: black;
@@ -76,19 +76,18 @@ body {
   padding-bottom: 4px;
 }
 
-/* Active link underline */
+
 .nav-links li a.active {
   border-bottom: 2px solid red;
 }
 
-/* Hover gradient */
+
 .nav-links li a:hover {
   background: linear-gradient(90deg, blue, red);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-/* Hamburger styles */
 .hamburger {
   display: none;
   flex-direction: column;
@@ -104,7 +103,7 @@ body {
   margin: 4px 0;
 }
 
-/* Responsive styles */
+
 @media (max-width: 768px) {
   .nav-links {
     flex-direction: column;
@@ -131,7 +130,7 @@ body {
     margin: 0.5rem 0;
   }
 
-  /* Remove vertical divider on mobile */
+
   .nav-links li:not(:last-child)::after {
     display: none;
   }

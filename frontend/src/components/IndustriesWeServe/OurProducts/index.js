@@ -93,8 +93,8 @@ const CardPage = () => {
     },
     {
       id: 15,
-      image: '/Asset/Sameto-Coater.png',
-      title: 'Powder Transfer System (PTS)',
+      image: '/Asset/SametoCoater.png',
+      title: 'Sameto Coater',
       content: 'Closed Containment Solution for Safe & Efficient Powder Handling. ',
     },
     {
@@ -105,7 +105,7 @@ const CardPage = () => {
     },
     {
       id: 17,
-      image: './Product images/OINTMENT-LIQUID-ORAL-PLANT.png',
+      image: '/Product images/OINTMENT-LIQUID-ORAL-PLANT.png',
       title: 'Hydraulic Lifter',
       content: 'Ergonomic Material Handling for GMP Environments. ',
     },

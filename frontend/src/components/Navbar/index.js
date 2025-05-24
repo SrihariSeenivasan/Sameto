@@ -16,7 +16,7 @@ const Navbar = () => {
       },
       {
         root: null,
-        threshold: 0.6, // 60% of the section must be visible
+        threshold: 0.6,
       }
     );
 

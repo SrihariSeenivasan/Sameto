@@ -38,7 +38,6 @@ const IndustriesWeServe = () => {
 
       {industriesData.map(({ id, text, img, reverse }) => (
         <Row key={id} className="align-items-center mb-5 industry-row flex-wrap">
-          {/* Icon comes first in mobile */}
           <Col xs={12} md={2} className={`text-center ${reverse ? 'order-md-1' : 'order-md-2'} order-1`}>
             <div className="circle-number gradient-border">{id}</div>
           </Col>
@@ -46,7 +45,6 @@ const IndustriesWeServe = () => {
           <Col xs={12} md={10} className={`order-2 ${reverse ? 'order-md-2' : 'order-md-1'}`}>
             <Card className="shadow industry-card p-4">
               <Row className="align-items-center">
-                {/* On mobile image comes first, then paragraph */}
                 <Col xs={12} md={6} className="order-1">
                   <img src={img} alt={`Industry ${id}`} className="img-fluid mb-3 mb-md-0" />
                 </Col>

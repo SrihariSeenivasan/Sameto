@@ -332,7 +332,7 @@ const products = {
     title: 'Sameto Coater',
     subtitle: 'Automatic Tablet Coating Machine for Precision Film & Sugar Coating',
     description: `The Sameto Coater is a fully automated, high-efficiency tablet coating machine designed for uniform film and sugar coating of tablets and pellets. Engineered to meet GMP and cGMP guidelines, it ensures superior coating uniformity, reduced process time, and optimal product integrity—making it the preferred choice for pharmaceutical, nutraceutical, and herbal industries.`,
-    image: '/Asset/Sameto-Coater.png',
+    image: '/Asset/SametoCoater.png',
     features: [
       'Perforated coating pan with advanced baffle design for uniform tablet tumbling',
       'Spray gun system with anti-drip and auto-clean functionality',
@@ -410,24 +410,20 @@ const ProductDetail = () => {
   return (
     <>
       <Navbar />
-
       <div className="container mt-5">
-        {/* Top Card Section */}
         <div className="card p-4 shadow rounded-4 border-0">
           <div className="row d-flex align-items-stretch">
-            {/* Text Section */}
+           
             <div className="col-md-6 d-flex flex-column justify-content-center">
               <h3 className="fw-bold">{product.title}</h3>
               <h6 className="text-muted mb-3">{product.subtitle}</h6>
               <p>{product.description}</p>
             </div>
-
-            {/* Vertical Divider */}
             <div className="col-md-1 d-none d-md-flex justify-content-center">
               <div style={{ borderLeft: '2px solid #ccc', height: '100%' }}></div>
             </div>
 
-            {/* Image Section */}
+          
             <div className="col-md-5 d-flex align-items-center justify-content-center">
               <div
                 className="rounded-circle d-flex align-items-center justify-content-center bg-primary"
@@ -444,9 +440,7 @@ const ProductDetail = () => {
           </div>
         </div>
 
-        {/* Key Features & Applications Section */}
         <div className="row mt-5 g-4">
-          {/* Key Features */}
           <div className="col-md-6">
             <div className="card h-100 border-0 shadow-sm rounded-4">
               <div className="card-body">
@@ -462,8 +456,6 @@ const ProductDetail = () => {
               </div>
             </div>
           </div>
-
-          {/* Applications */}
           <div className="col-md-6">
             <div className="card h-100 border-0 shadow-sm rounded-4">
               <div className="card-body">
@@ -480,21 +472,17 @@ const ProductDetail = () => {
             </div>
           </div>
         </div>
-
-        {/* Footer Note */}
         <div className="mt-5">
           <div className="p-4 bg-light border-start border-5 border-primary rounded-3 shadow-sm">
             <p className="mb-0">{product.footerNote}</p>
           </div>
         </div>
+        <div id="contact">
+           <ContactSection />
+        </div>
+        </div>
 
-        {/* Contact Section */}
-         <div id="contact">
-  <ContactSection />
-</div>
-      </div>
-
-      {/* Footer */}
+     
       <Footer />
     </>
   );

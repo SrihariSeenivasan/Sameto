@@ -4,7 +4,7 @@ import { FaEye, FaBullseye, FaHandshake } from 'react-icons/fa';
 const VisionMissionPartners = () => {
   return (
     <section className="py-5 bg-light text-center">
-      {/* Section Title with Icon */}
+      
       <div className="container mb-4">
         <div className="d-flex flex-column align-items-center">
           
@@ -16,10 +16,10 @@ const VisionMissionPartners = () => {
         <hr className="my-4" />
       </div>
 
-      {/* Cards */}
+     
       <div className="container">
         <div className="row g-4">
-          {/* Vision Card */}
+          
           <div className="col-md-4">
             <div className="card h-100 shadow-sm p-4">
               <div className="text-center mb-3">
@@ -34,7 +34,7 @@ const VisionMissionPartners = () => {
             </div>
           </div>
 
-          {/* Mission Card */}
+        
           <div className="col-md-4">
             <div className="card h-100 shadow-sm p-4">
               <div className="text-center mb-3">
@@ -48,7 +48,7 @@ const VisionMissionPartners = () => {
             </div>
           </div>
 
-          {/* Partners Card */}
+         
           <div className="col-md-4">
             <div className="card h-100 shadow-sm p-4">
               <div className="text-center mb-3">

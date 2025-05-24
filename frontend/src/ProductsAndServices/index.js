@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Import Link for navigation
-import './style.css'; // Optional for custom styles
-import Navbar from '../components/Navbar'; // Adjust if path differs
+import { Link } from 'react-router-dom'; 
+import './style.css'; 
+import Navbar from '../components/Navbar'; 
 import Footer from '../components/Footer';
 import ContactSection from '../components/Contact';
 
@@ -20,7 +20,7 @@ const productData = [
   { id: 12, name: "Air Tray Dryer", image: "./Product images/Air-Tray-Dryer.png" },
   { id: 13, name: "Ointment", image: "./Product images/OINTMENT-LIQUID-ORAL-PLANT.png" },
   { id: 14, name: "RMG", image: "./Asset/RMG1.png" },
-  { id: 15, name: "Sameto Coater", image: "./Asset/Sameto_coater.png" },
+  { id: 15, name: "Sameto Coater", image: "./Asset/SametoCoater.png" },
   { id: 16, name: "Powder Transfer System (PTS)", image: "/Asset/fbd.png" },
   { id: 17, name: "Hydraulic Lifter", image: "/Asset/RMG1.png" },
   

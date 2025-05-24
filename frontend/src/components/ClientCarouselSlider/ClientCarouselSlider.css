@@ -1,19 +1,19 @@
 .carousel-container {
   overflow-x: scroll;
-  white-space: nowrap;      /* IMPORTANT: keeps images in a single row */
+  white-space: nowrap;     
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
-  scrollbar-width: none; /* Firefox */
-  width: 100%;  /* container should fill parent width */
+  scrollbar-width: none; 
+  width: 100%;  
 }
 
 .carousel-container::-webkit-scrollbar {
-  display: none; /* Hide scrollbar */
+  display: none; 
 }
 
 .carousel-item {
-  display: inline-block;   /* Keep items in row */
-  width: 300px;            /* Fixed width per image */
+  display: inline-block;   
+  width: 300px;            
   user-select: none;
 }
 
@@ -21,5 +21,5 @@
   width: 100%;
   height: auto;
   border-radius: 0.5rem;
-  display: block;          /* Remove extra space below images */
+  display: block;       
 }
