@@ -43,7 +43,7 @@ const Navbar = () => {
             onClick={() => setIsOpen(false)}
             className={({ isActive }) => (isActive ? 'active' : '')}
           >
-            <img src="/logo.png" alt="Logo" className="logo" width="60"height="100"/>
+            <img src="/Logo.jpg" alt="Logo" className="logo" width="60"height="100"/>
           </NavLink>
         </div>
 
