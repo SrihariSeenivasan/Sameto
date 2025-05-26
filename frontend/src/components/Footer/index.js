@@ -13,7 +13,7 @@ const Footer = () => {
         <Row className="mb-4">
           <Col md={3} className="mb-3">
             <div className="mb-2">
-              <img src="/Logo-.png" alt="Logo"  />
+              <img src="/Logo-.png" alt="Logo" width="120" />
             </div>
             <p className="small">
               Empowering your journey with quality content and meaningful connections.
